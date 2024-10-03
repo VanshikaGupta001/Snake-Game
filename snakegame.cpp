@@ -50,10 +50,7 @@ public:
         body[0] = Point(x, y);
         direction = DIR_RIGHT;
     }
-    // ~Snake()
-    // {
-    //     delete[] body;
-    // }
+    
     int getLength()
     {
         return length;
@@ -227,6 +224,6 @@ int main()
         Sleep(100);
     }
     cout << "Game Over" << endl;
-    // cout<<"Final Score is :"<< board->s();
+    
     return 0;
 }
